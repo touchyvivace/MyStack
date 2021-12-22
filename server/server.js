@@ -27,6 +27,8 @@ app.use(morgan("dev"))
 // })
 
 //route
+
+//test route
 app.use('/api',blogRoute)
 
 const port = process.env.PORT || 8080
